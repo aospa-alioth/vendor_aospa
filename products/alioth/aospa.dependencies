@@ -1,7 +1,7 @@
 [
     {
-        "remote":       "aospa",
-        "repository":   "AOSPA/android_device_xiaomi_alioth",
+        "remote":       "github",
+        "repository":   "aospa-alioth/device_xiaomi_alioth",
         "target_path":  "device/xiaomi/alioth",
         "revision":     "topaz"
     },
@@ -12,11 +12,10 @@
         "revision":     "topaz"
     },
     {
-        "remote":       "blobs",
-        "repository":   "proprietary_vendor_xiaomi",
-        "target_path":  "vendor/xiaomi",
-        "revision":     "topaz",
-        "clone-depth":  "1"
+        "remote":       "github",
+        "repository":   "aospa-alioth/vendor_xiaomi_alioth",
+        "target_path":  "vendor/xiaomi/alioth",
+        "revision":     "topaz"
     },
     {
         "remote":       "aospa",
